@@ -7,6 +7,8 @@ Investment App is an application to manage shares and stock information of users
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the app.
 
 ```bash
+pip install virtualenv
+virtualenv venv
 pip install -r requirements.txt
 ```
 
@@ -25,7 +27,7 @@ http://127.0.0.1:8000/companies/register
 
 ###### Required params
 
-```curl
+```text
 Example:
        first_name : Jeff 
        last_name : Applewhite
@@ -35,7 +37,7 @@ Example:
 
 #### Login Api
 
-```curl
+```text
 http://127.0.0.1:8000/companies/login
 ```
 
