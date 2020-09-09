@@ -111,7 +111,7 @@ Example:
 ```
 
 #### Update Investment Info Api
-Any one of the below paraters will be fine, or all of them will be fine.
+Any one of the below paraters will suffice, else you can include all of them.
 ```curl
 http://127.0.0.1:8000/companies/update_invest
 ```
